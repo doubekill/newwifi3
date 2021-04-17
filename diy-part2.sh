@@ -12,6 +12,6 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-appzerotier
-rm package/lean/luci-app-zerotier
+git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-app-zerotier
+rm package/lean/luci-app-zerotier -rf
 git clone https://github.com/iz4iz4/luci-app-nat6-helper.git package/luci-app-nat6-helper
