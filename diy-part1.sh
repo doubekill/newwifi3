@@ -18,6 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-git clone https://github.com/rufengsuixing/luci-app-zerotier.git ./package/diy/luci-app-zerotier/
-git clone https://github.com/mchome/luci-app-vlmcsd ./package/diy/luci-app-vlmcsd/
-git clone https://github.com/mchome/openwrt-vlmcsd ./package/diy/openwrt-vlmcsd/
+#git clone https://github.com/rufengsuixing/luci-app-zerotier.git ./package/diy/luci-app-zerotier/
+#git clone https://github.com/mchome/luci-app-vlmcsd ./package/diy/luci-app-vlmcsd/
+#git clone https://github.com/mchome/openwrt-vlmcsd ./package/diy/openwrt-vlmcsd/
